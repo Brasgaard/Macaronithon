@@ -69,7 +69,7 @@
 
 <script src="js/style.js" type="text/javascript"></script>
 
-<script src="JS/style.js" type="text/javascript"></script>
+
 <script src="js/setmeal.js" type="text/javascript"></script>
 
 
