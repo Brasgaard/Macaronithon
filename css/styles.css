@@ -9,8 +9,8 @@ body {
 */
 
 .main--container {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  
   font-family: Helvetica, sans-serif;
   overflow: hidden;
   background-image: url(../images/cartoonbgtest.jpg);
@@ -45,7 +45,7 @@ body {
   display: grid;
   grid-template-areas: 'logo logo' 'search search' 'predator human';
   grid-gap: 20px;
-  padding: 10px;
+  
 }
 
 .grid-container > div {
@@ -56,7 +56,7 @@ body {
 
 /* Images on index.html */
 .t-rex {
-  padding-top: 20%;
+  padding-top: 15%;
   width: 45%;
   position: relative;
   -webkit-animation-name: examplerex;
@@ -74,7 +74,7 @@ body {
 }
 
 .human {
-  padding-top: 35%;
+  padding-top: 25%;
   width: 25%;
   position: relative;
   -webkit-animation-name: examplehuman;
