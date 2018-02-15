@@ -29,7 +29,9 @@ background: linear-gradient(to right, #7B920A, #ADD100); /* W3C, IE 10+/ Edge, F
 .macaronithon--header-span2 {
   color: #f6d24d; }
 
-
+.frontpage--link {
+  text-decoration: none;
+}
 /* ...............................................
               MAIN: SCREEN_1
 .................................................*/
