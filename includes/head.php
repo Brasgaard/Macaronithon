@@ -16,7 +16,7 @@
 	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
     <!-- CSS & SASS -->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	
 	<link rel="stylesheet" type="text/css" href="css/animate.css">

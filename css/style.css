@@ -3,6 +3,7 @@
 .................................................*/
 .macaronithon {
   display: flex;
+ position: relative;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -15,8 +16,19 @@ background: linear-gradient(to right, #7B920A, #ADD100); /* W3C, IE 10+/ Edge, F
 }
 
 .back--link {
-  text-decoration: none;
+  position: absolute;
+  display: flex;
   align-self: flex-start;
+  left: 20px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #f6d24d;
+}
+.back--link-hover {
+  opacity: 0;
+}
+.back--link-hover:hover {
+  opacity: 1;
 }
 
 .macaronithon--logo {

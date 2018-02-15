@@ -1,5 +1,6 @@
 <header class="macaronithon">
-	<a class="back--link" href="index.php"><i class="fas fa-arrow-left"></i>Back</a>
+
+	<a class="back--link" href="index.php"><i class="fa fa-arrow-left"></i><span class="back--link-hover">  back</span></a>
 
 
 	<img class="macaronithon--logo" src="images/mlogo.png" alt="Macaronithon logo">
