@@ -35,13 +35,13 @@
 			<form class="predators--topbar-form">
 				<select class="topbar-form-select" name="predator" id="predator">
 					<option class="inputPredator" value="">Select ...</option>
-					<option class="inputPredator" name="bull" value="bull" data-list="bull"><span>bull</span></option>
-					<option class="inputPredator" name="tyrannotitan" value="tyrannotitan" data-list="tyrannotitan"><span>tyrannotitan</span></option>
-					<option class="inputPredator" name="bieber" value="bieber" data-list="bieber"><span>bieber</span></option>
-					<option class="inputPredator" value="tiger" data-list="tiger"><span>tiger</span></option>
+					<option class="inputPredator" name="bull" value="bull" data-list="bull"><span>Bull</span></option>
+					<option class="inputPredator" name="tyrannotitan" value="tyrannotitan" data-list="tyrannotitan"><span>Tyrannotitan</span></option>
+					<option class="inputPredator" name="bieber" value="bieber" data-list="bieber"><span>Justin Bieber</span></option>
+					<option class="inputPredator" value="tiger" data-list="tiger"><span>Tiger</span></option>
 				</select>
 
-			<button class="submitPredator"><span>Go!</span></button>
+			
 			</form>
 		</article>
 
