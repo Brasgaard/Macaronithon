@@ -101,6 +101,9 @@
                 document.getElementById('image').src = "images/" + value + ".png";
 				document.getElementById('post').innerHTML = "you have lost against" + ' ' + value;
 				document.getElementById('c').classList.remove("none");
+				setTimeout(function(){
+				location.reload();
+				},5000);
 				
              }
             else {
