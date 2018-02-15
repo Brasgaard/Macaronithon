@@ -1,6 +1,6 @@
 ﻿<?php require 'includes/head.php'; ?>
 <?php require 'includes/header.php'; ?>
-
+<canvas id='c' class="none"></canvas>
 	<article class="search--box">
 
 		<div class="search--sidebarleft"></div>
@@ -29,7 +29,7 @@
 		<article class="predators--topbar">
 			<h1 class="predators--topbar-heading">Choose Your Predator</h1>
 			
-			<form class="predators--topbar-form"">
+			<form class="predators--topbar-form">
 				<select class="topbar-form-select" name="predator" id="predator">
 					<option class="inputPredator" value="">Select ...</option>
 					<option class="inputPredator" name="bull" value="bull" data-list="bull"><span>bull</span></option>
@@ -63,6 +63,7 @@
 	<script src="js/choose_predator.js" type="text/javascript"></script>
 	<script src="JS/style.js" type="text/javascript"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+	<script src="js/blood.js" type="text/javascript"></script>
 	<script>
 	document.querySelector('#predator').onchange = changeEventHandler;
 	function changeEventHandler() {
@@ -83,19 +84,23 @@
             console.log(values[value]);
 			if (fatValue > 100 || carbValue > 100 || proteinValue > 100) {
 				alert("One of your values is too high. Please change it to something lower")
-				$('#post').text("You're not trying to cheat now right? One of your values is a bit too high");
+				document.getElementById('post').innerHTML = "You're not trying to cheat now right? One of your values is a bit too high";
 			}
             else if (values[value] > nutritionTotal) {
                 console.log('we beat the pizza');
                 console.log(value);
 				console.log(nutritionTotal);
                 document.getElementById('image').src = "images/" + value + ".png";
-                $('#post').text("you have lost");
+                document.getElementById('post').innerHTML = "you have lost against" + ' ' + value;
+				document.getElementById('c').classList.remove("none");
+				setTimeout(function(){
+				location.reload();
+				},5000);
              }
             else {
                 console.log(value);
 				console.log(nutritionTotal);
-                $('#post').text("you have Won against" + ' ' + value);
+                document.getElementById('post').innerHTML = "you have won against" + ' ' + value;
                 document.getElementById('image').src = "images/" + value + ".png";
             }
             
