@@ -99,13 +99,13 @@
                 console.log('we beat the pizza');
                 console.log(value);
                 document.getElementById('image').src = "images/" + value + ".png";
-                $('#post').text("you have lost against" + ' ' + value );
+				document.getElementById('post').innerHTML = "you have lost against" + ' ' + value;
 				document.getElementById('c').classList.remove("none");
 				
              }
             else {
                 console.log(value);
-                $('#post').text("you have won against" + ' ' + value);
+				document.getElementById('post').innerHTML = "you have won against" + ' ' + value;
                 document.getElementById('image').src = "images/" + value + ".png";
             }
             
