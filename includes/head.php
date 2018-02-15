@@ -15,12 +15,16 @@
 	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
+<<<<<<< HEAD
     <!-- CSS & SASS -->
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+=======
+    <!-- CSS & SASS & Fonts-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+>>>>>>> a77ac7e4d36a0a7411fde74fa5e04d5615b8ce81
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
-    
+	<link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/awesomplete.css"></link>

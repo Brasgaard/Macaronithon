@@ -10,10 +10,9 @@ body {
 
 .main--container {
   width: 100%;
-  
   font-family: Helvetica, sans-serif;
   overflow: hidden;
-  background-image: url(../images/cartoonbgtest.jpg);
+  background-image: url(../images/cartoonbg.jpg);
   -webkit-animation: animatedBackground 30s linear infinite;
 }
 
@@ -27,6 +26,7 @@ body {
 /* CSS Grid */
 .item1 {
   grid-area: logo;
+  padding-top: 3%;
 }
 
 .item2 {
@@ -53,6 +53,12 @@ body {
   font-size: 30px;
 }
 
+/* Logo and text frontpage */
+#fronttext {
+  font-family: 'Freckle Face', cursive, sans-serif;
+  font-size: 1.3em;
+}
+
 
 /* Images on index.html */
 .t-rex {
@@ -74,7 +80,7 @@ body {
 }
 
 .human {
-  padding-top: 25%;
+  padding-top: 38%;
   width: 25%;
   position: relative;
   -webkit-animation-name: examplehuman;

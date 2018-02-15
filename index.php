@@ -1,13 +1,5 @@
+	<!-- PHP Include header -->
 <?php require 'includes/head.php'; ?>
-	
-	
-	<!--Popup-->
-<span class="window--alert none conditionalClose "><p>Unfortunately we don't have your product. Do you want to add it?</p>
-		<div class="grid-container--buttons">
-		<div class="button button--ok">OK</div>
-		<div class="button button--cancel">CANCEL</div>
-		</div>
-		</span>
 
 	<!-- Grid start -->
 <main class="main--container">
@@ -32,6 +24,14 @@
 		<button class="submitMeal"><span>Go!</span></button>
 	</div>
 
+	<!-- Popup from searchbar-->
+	<span class="window--alert none conditionalClose "><p>Unfortunately we don't have your product. Do you want to add it?</p>
+		<div class="grid-container--buttons">
+			<div class="button button--ok">Ok</div>
+			<div class="button button--cancel">Cancel</div>
+		</div>
+	</span>
+
 	<!-- Pictures of the predator and human -->
 	<div class="item3">
         <div class="animated tada">
@@ -44,20 +44,23 @@
     		<img src="images/humanrun.png" alt="Human running from predator" title="Human" class="human">
         </div>
 	</div>
-
-	<!-- Footer if needed-->
 	
-
 </div>
-
 </main>
+<<<<<<< HEAD
 <?php include 'includes/footer.php'; ?>
+=======
+>>>>>>> a77ac7e4d36a0a7411fde74fa5e04d5615b8ce81
 
 	<!-- Scripts for Macaronithon -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/awesomplete.min.js"></script>
 	<script src="js/getmeal.js" type="text/javascript"></script>
 	<script src="js/popup.js" type="text/javascript"></script>
+<<<<<<< HEAD
 
+=======
+	<?php include 'includes/footer.php'; ?>
+>>>>>>> a77ac7e4d36a0a7411fde74fa5e04d5615b8ce81
 </body>
 </html>
