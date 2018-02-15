@@ -13,7 +13,7 @@
 	<!-- Front page logo/name -->
 	<div class="item1">
         <div class="animated zoomIn">
-        	<h1 id="frontname">Macaronithon(insert logo)</h1>
+        	<img id="frontlogo" src="images/logotry.png" alt="Logo Macaronithon" title="Logo Macaronithon">
 			<p id="fronttext">How far can you run before you get eaten</p>
 		</div>
 	</div>
@@ -44,17 +44,15 @@
     		<img src="images/humanrun.png" alt="Human running from predator" title="Human" class="human">
         </div>
 	</div>
-	
+
 </div>
 </main>
-
-<?php include 'includes/footer.php'; ?>
 
 	<!-- Scripts for Macaronithon -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/awesomplete.min.js"></script>
 	<script src="js/getmeal.js" type="text/javascript"></script>
 	<script src="js/popup.js" type="text/javascript"></script>
-
+	<?php include 'includes/footer.php'; ?>
 </body>
 </html>
