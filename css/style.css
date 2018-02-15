@@ -290,4 +290,12 @@ background: linear-gradient(to right, #7B920A, #ADD100); /* W3C, IE 10+/ Edge, F
   color: #f6d24d;
 }
 
+#c {
+	position: absolute;
+}
+
+.none {
+	display: none;
+}
+
 /*# sourceMappingURL=style.css.map */

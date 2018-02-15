@@ -1,10 +1,10 @@
 <?php require 'includes/head.php'; ?>
 <?php require 'includes/header.php'; ?>
-
+		
 <main class="mainArea2">
 
 	<section class="mainArea2--pizza">
-		
+
 		<article class="pizza--topbar">
 			<h1 class="pizza--topbar-heading">Your Power Meal is:</h1>
 		</article>
@@ -15,7 +15,7 @@
 			<h1 class="pizza--article-heading" id="mealHead">Pizza</h1>
 			<p class="pizza--article-paragraph" id="mealParagraph">Pizza is a traditional Italian meal, where a bunch of second-class rubbish is layed out onto a flatbread. It consists of: 45% of fats, 35% of carbs and 20% of proteins.</p>
 		</article>
-
+<canvas id='c' class="none"></canvas>
 
 		<aside class="pizza--aside">
 			<img class="pizza--aside-img" id="mealImg" src="images/pizza.png" alt="Pizza">
@@ -32,7 +32,7 @@
 		<article class="predators--topbar">
 			<h1 class="predators--topbar-heading">Choose Your Predator</h1>
 			
-			<form class="predators--topbar-form"">
+			<form class="predators--topbar-form">
 				<select class="topbar-form-select" name="predator" id="predator">
 					<option class="inputPredator" value="">Select ...</option>
 					<option class="inputPredator" name="bull" value="bull" data-list="bull"><span>bull</span></option>
@@ -60,6 +60,7 @@
 	</section>
 
 </main>
+
 <script
   src="http://code.jquery.com/jquery-2.2.4.js"
   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
@@ -68,6 +69,7 @@
 
 
 <script src="js/style.js" type="text/javascript"></script>
+<script src="js/blood.js" type="text/javascript"></script>
 
 <script src="JS/style.js" type="text/javascript"></script>
 <script src="js/setmeal.js" type="text/javascript"></script>
@@ -98,6 +100,8 @@
                 console.log(value);
                 document.getElementById('image').src = "images/" + value + ".png";
                 $('#post').text("you have lost");
+				document.getElementById('c').classList.remove("none");
+				
              }
             else {
                 console.log(value);
