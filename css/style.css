@@ -281,6 +281,52 @@ height: 22px;
   border: black 1px solid;
   border-style: outset;
 }
+
+/* ...............................................
+              MAIN: SCREEN_3
+.................................................*/
+
+.search--box {
+  display: grid;
+  grid-template-areas: 
+  'sidebarleft center sidebarright';
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 10px;
+  background: white;
+}
+.search--sidebarleft {
+  grid-area: sidebarleft;
+}
+.search--centerbar {
+  grid-area: center;
+}
+/*form {
+  position: relative;
+}*/
+
+      /*.searchBlock {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+      }*/
+     
+.searchBlock__input {
+  height: 22px;
+  background: #f6d24d;
+  border: black 1px solid;
+  border-style: outset;
+        position: absolute;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+      }
+      .searchBlock__input:focus {
+  outline-color: #f6d24d;
+}
+.search--sidebarright {
+  grid-area: sidebarright;
+}
  
 /* ...............................................
               FOOTER

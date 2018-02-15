@@ -1,17 +1,29 @@
 ﻿<?php require 'includes/head.php'; ?>
 <?php require 'includes/header.php'; ?>
 
-<body>
-	
+	<article class="search--box">
+
+		<div class="search--sidebarleft"></div>
+
+		<div class="search--centerbar">
+	<form>
 		<h3 class="searchBlock">Input your own data, then choose a predator to compete against</h3>
-		<h4<class="searchBlock">Values can range from 0-100</h4>
+		<h4 class="searchBlock">Values can range from 0-100</h4>
+		
 		<p class="searchBlock searchBlock__p">Fat</p>
 		<input type="number" id="fat" class="searchBlock searchBlock__input">
+		
 		<p class="searchBlock searchBlock__p">Carbs</p>
 		<input type="number" id="carbs" class="searchBlock searchBlock__input">
+		
 		<p class="searchBlock searchBlock__p">Protein</p>
 		<input type="number" id="protein" class="searchBlock searchBlock__input">
+	</form>
+		</div>
+		<div class="search--sidebarright"></div>
+	</article>
 		
+
 		<section class="mainArea2--predators">
 		
 		<article class="predators--topbar">
