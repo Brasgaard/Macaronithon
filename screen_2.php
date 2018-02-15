@@ -66,7 +66,7 @@
   crossorigin="anonymous">	
 </script>
 <script src="js/choose_predator.js" type="text/javascript"></script>
-<script src="JS/style.js" type="text/javascript"></script>
+<script src="js/style.js" type="text/javascript"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
 

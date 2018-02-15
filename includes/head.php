@@ -17,7 +17,7 @@
     <!-- CSS & SASS -->
 	
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" type="text/css" href="sass/styles.scss">
+	
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 
 	<link rel="stylesheet" type="text/css" href="css/animate.css">

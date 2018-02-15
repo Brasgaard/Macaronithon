@@ -10,7 +10,7 @@ body {
 
 .main--container {
   width: 100vw;
-  height: 110vh;
+  height: 100vh;
   font-family: Helvetica, sans-serif;
   overflow: hidden;
   background-image: url(../images/cartoonbgtest.jpg);
