@@ -8,7 +8,7 @@ if ($thisYear > $startYear) {
     $copyright = $startYear;
 }
  ?>
-<footer class="footer"><p class="footer--copyright" role="contentinfo">© <?php echo $copyright ?> Macaronithon<br>Alexander Brasgaard van Straaten, Linas Mackonis Sean Ryg C. & Maciej Woźniak</p>
+<footer class="footer"><p class="footer--copyright" role="contentinfo">© <?php echo $copyright ?> Macaronithon. Alexander Brasgaard van Straaten, Linas Mackonis Sean Ryg C. & Maciej Woźniak</p>
 </footer>
 
 </body>
