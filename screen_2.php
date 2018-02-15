@@ -12,13 +12,13 @@
 		<article class="pizza--sidebarleft"></article>
 
 		<article class="pizza--article">
-			<h1 class="pizza--article-heading">Pizza</h1>
-			<p class="pizza--article-paragraph">Pizza is a traditional Italian meal, where a bunch of second-class rubbish is layed out onto a flatbread. It consists of: 45% of fats, 35% of carbs and 20% of proteins.</p>
+			<h1 class="pizza--article-heading" id="mealHead">Pizza</h1>
+			<p class="pizza--article-paragraph" id="mealParagraph">Pizza is a traditional Italian meal, where a bunch of second-class rubbish is layed out onto a flatbread. It consists of: 45% of fats, 35% of carbs and 20% of proteins.</p>
 		</article>
 
 
 		<aside class="pizza--aside">
-			<img class="pizza--aside-img" src="images/pizza.png" alt="Pizza">
+			<img class="pizza--aside-img" id="mealImg" src="images/pizza.png" alt="Pizza">
 		</aside>
 
 		<article class="pizza--sidebarright"></article>
@@ -66,7 +66,12 @@
   crossorigin="anonymous">	
 </script>
 <script src="js/choose_predator.js" type="text/javascript"></script>
+<<<<<<< HEAD
 <script src="js/style.js" type="text/javascript"></script>
+=======
+<script src="JS/style.js" type="text/javascript"></script>
+<script src="js/setmeal.js" type="text/javascript"></script>
+>>>>>>> 2425dddea8155e2a26129501ca38b94e2a1836a4
 
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
 
