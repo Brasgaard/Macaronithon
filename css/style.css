@@ -140,12 +140,12 @@ background-size: 20px 20px;
 
 .inputMeal {
   height: 22px;
-  /*border-width: 4px;
-  border-color: #f6d24d;
+  background: #f6d24d;
+  border: black 1px solid;
   border-style: outset;*/
 }
 .inputMeal:focus {
-  outline: none;
+  outline-color: #f6d24d;
 }
 .submitMeal {
   width: 60px;
@@ -184,7 +184,7 @@ border-color: #f6d24d;
               align-items: center;
               font-size: 1.8em;
               margin: 0;
-              padding: 0;
+              padding: 2% 0 0 0;
             }
 
     .pizza--sidebarleft {
@@ -205,11 +205,12 @@ border-color: #f6d24d;
               justify-content: center;
               align-items: center;
               font-size: 1.8em;
-              padding: 1%; }
+              margin: 0;
+              padding: 20px 0 0 0; }
 
             .pizza--article-paragraph {
               font-size: 1.3em;
-              padding: 3%; }
+              padding: 10px 15px 15px 15px; }
 
     .pizza--aside {
       grid-area: aside;
@@ -224,7 +225,7 @@ border-color: #f6d24d;
               background: #f6d24d;
             }
             .pizza--aside-img {
-              width: 70%;
+              width: 50%;
             }
     .pizza--sidebarright {
       grid-area: sidebarright;
@@ -253,6 +254,7 @@ border-color: #f6d24d;
 .predators--topbar-heading {
   display: inline;
   margin: 0;
+  padding: 2% 0 0 0;
   font-size: 1em;
 }
 
@@ -261,7 +263,7 @@ grid-area: sidebarleft;
 position: relative;
 }
 #image {
-  width: 95%;
+  width: 70%;
   float: right; 
 }
 
