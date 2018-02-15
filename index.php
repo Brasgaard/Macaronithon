@@ -47,20 +47,14 @@
 	
 </div>
 </main>
-<<<<<<< HEAD
+
 <?php include 'includes/footer.php'; ?>
-=======
->>>>>>> a77ac7e4d36a0a7411fde74fa5e04d5615b8ce81
 
 	<!-- Scripts for Macaronithon -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/awesomplete.min.js"></script>
 	<script src="js/getmeal.js" type="text/javascript"></script>
 	<script src="js/popup.js" type="text/javascript"></script>
-<<<<<<< HEAD
 
-=======
-	<?php include 'includes/footer.php'; ?>
->>>>>>> a77ac7e4d36a0a7411fde74fa5e04d5615b8ce81
 </body>
 </html>
