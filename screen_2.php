@@ -86,14 +86,21 @@
             var tiger = 180;
             var tyrannotitan = 200;
             var bieber = 500;
-            
-            
-            if (value > pizza) {
+            var values = {
+            	"bull": 150,
+            	"tyrannotitan": 200,
+            	"tiger": 180,
+            	"bieber": 500
+            }
+            console.log(values[value]);
+            if (values[value] > pizza) {
+                console.log('we beat the pizza');
                 console.log(value);
                 document.getElementById('image').src = "images/" + value + ".png";
                 $('#post').text("you have lost");
              }
             else {
+                console.log(value);
                 $('#post').text("you have Won against" + ' ' + value);
                 document.getElementById('image').src = "images/" + value + ".png";
             }
