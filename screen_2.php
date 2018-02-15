@@ -65,13 +65,13 @@
   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
   crossorigin="anonymous">	
 </script>
-<script src="js/choose_predator.js" type="text/javascript"></script>
-<<<<<<< HEAD
+
+
 <script src="js/style.js" type="text/javascript"></script>
-=======
+
 <script src="JS/style.js" type="text/javascript"></script>
 <script src="js/setmeal.js" type="text/javascript"></script>
->>>>>>> 2425dddea8155e2a26129501ca38b94e2a1836a4
+
 
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
 
