@@ -51,13 +51,13 @@
 </div>
 
 </main>
-
+<?php include 'includes/footer.php'; ?>
 
 	<!-- Scripts for Macaronithon -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/awesomplete.min.js"></script>
 	<script src="js/getmeal.js" type="text/javascript"></script>
 	<script src="js/popup.js" type="text/javascript"></script>
-<?php include 'includes/footer.php'; ?>
+
 </body>
 </html>
