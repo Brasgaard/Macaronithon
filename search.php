@@ -8,7 +8,7 @@
 		<div class="search--centerbar">
 	<form>
 		<h3 class="searchBlock">Input your own data, then choose a predator to compete against</h3>
-		<h4 class="searchBlock">Values can range from 0-100</h4>
+		<h4 class="searchBlock">Values can range from 1-100</h4>
 		<div class="input--tile">
 		<p class="searchBlock searchBlock__p">Fat</p>
 		<input type="number" id="fat" class="searchBlock searchBlock__input" placeholder="Fats">
@@ -82,12 +82,16 @@
             	"Bull": 150,
             	"Tyrannotitan": 200,
             	"Tiger": 180,
-            	"Justin Bieber": 500
+            	"Justin_Bieber": 500
             }
             console.log(values[value]);
 			if (fatValue > 100 || carbValue > 100 || proteinValue > 100) {
-				alert("One of your values is higher than 100. Please change it to something lower")
+				alert("One of your values is higher than 100. Please change it to something lower");
 				document.getElementById('post').innerHTML = "You're not trying to cheat now right? One of your values is a bit too high";
+			}
+			else if (fatValue < 1 || carbValue < 1 || proteinValue < 1) {
+				alert("A nutrient value cannot be zero, or less than zero.");
+				document.getElementById('post').innerHTML = "A nutrient value cannot be less than one. And don't use that '0% fat' line either. You know it's a scam!";
 			}
             else if (values[value] > nutritionTotal) {
                 console.log('we beat the pizza');
