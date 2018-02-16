@@ -66,13 +66,17 @@
 
 <script src="js/style.js" type="text/javascript"></script>
 <script src="js/blood.js" type="text/javascript"></script>
-<script src="js/predator.js" type="text/javascript"></script>
+<script src="JS/predator_screen2.js" type="text/javascript"></script>
+
 
 
 <script src="js/setmeal.js" type="text/javascript"></script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+  <script>
+
+</script>
 
 
 
