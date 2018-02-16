@@ -1,71 +1,46 @@
-﻿<?php require 'includes/head.php'; ?>
-<?php require 'includes/header.php'; ?>
-<canvas id='c' class="none"></canvas>
-	<article class="search--box">
+// JavaScript Document
+document.querySelector('#predator').onchange = changeEventHandler;
+	function changeEventHandler() {
+            // if nothing has been selected:
+            var value = event.target.value;
 
-		<div class="search--sidebarleft"></div>
-
-		<div class="search--centerbar">
-	<form>
-		<h3 class="searchBlock--1">Input your own data, then choose a predator to compete against</h3>
-		<h4 class="searchBlock--2">Values can range from 1-100</h4>
-		<div class="input--tile">
-		
-		<input type="number" id="fat" class="searchBlock searchBlock__input" placeholder="Fats">
-		</div>
-		<div class="input--tile">
-		
-		<input type="number" id="carbs" class="searchBlock searchBlock__input" placeholder="Carbs">
-		</div>
-		<div class="input--tile">
-		
-		<input type="number" id="protein" class="searchBlock searchBlock__input" placeholder="Proteins">
-		</div>
-	</form>
-		</div>
-		<div class="search--sidebarright"></div>
-	</article>
-		
-
-		<section class="mainArea2--predators">
-		
-		<article class="predators--topbar">
-			<h1 class="predators--topbar-heading">Choose Your Predator</h1>
-			
-			<form class="predators--topbar-form">
-				<select class="topbar-form-select" name="predator" id="predator">
-					<option class="inputPredator" value="">Select ...</option>
-					<option class="inputPredator" name="Bull" value="Bull" data-list="Bull"><span>Bull</span></option>
-					<option class="inputPredator" name="Tyrannotitan" value="Tyrannotitan" data-list="Tyrannotitan"><span>Tyrannotitan</span></option>
-					<option class="inputPredator" name="Justin Bieber" value="Justin_Bieber" data-list="Justin Bieber"><span>Justin Bieber</span></option>
-					<option class="inputPredator" value="Tiger" data-list="Tiger"><span>Tiger</span></option>
-				</select>
-
-			</form>
-		</article>
+            var pizza = 185;
+            var bull = 150;
+            var tiger = 180;
+            var tyrannotitan = 200;
+            var bieber = 500;
+            var values = {
+            	"Bull": 150,
+            	"Tyrannotitan": 200,
+            	"Tiger": 180,
+            	"Bieber": 500
+            };
+            console.log(values[value]);
+            if (values[value] > pizza) {
+                console.log('we beat the pizza');
+                console.log(value);
+                document.getElementById('image').src = "images/" + value + ".png";
+				document.getElementById('post').innerHTML = "You lost against" + ' ' + value;
+				document.getElementById('c').classList.remove("none");
+				setTimeout(function(){
+				document.getElementById('c').classList.add('none');
+				},5000);
+             }
+            else {
+                console.log(value);
+				document.getElementById('post').innerHTML = "You won against" + ' ' + value;
+                document.getElementById('image').src = "images/" + value + ".png";
+				if (!document.getElementById('c').classList.contains('none')){
+					document.getElementById('c').classList.add('none');
+				}
+				else {}
+            }
+            
+        }
 
 
-		<article class="predators--sidebarleft">
-			<img id="image" src="">
-		</article>
 
-		<article class="predators--center">
-			<h1 id="post"> </h1>
-		</article>
 
-		<article class="predators--sidebarright">
-			<img id="humanrun" src="images/humanrun.png">
-		</article>		
-	</section>
-	
-	
-	</script>
-	<script src="js/choose_predator.js" type="text/javascript"></script>
-	<script src="js/predator.js" type="text/javascript"></script>
-	<script src="JS/style.js" type="text/javascript"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
-	<script src="js/blood.js" type="text/javascript"></script>
-	<script>
 	document.querySelector('#predator').onchange = changeEventHandler;
 	function changeEventHandler() {
             // if nothing has been selected:
@@ -119,7 +94,3 @@
             }
             
         }
-	</script>
-</body>
-
-<?php include 'includes/footer.php'; ?>

@@ -61,61 +61,23 @@
 
 </main>
 
-<script
-  src="http://code.jquery.com/jquery-2.2.4.js"
-  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-  crossorigin="anonymous">	
-</script>
+
 
 
 <script src="js/style.js" type="text/javascript"></script>
 <script src="js/blood.js" type="text/javascript"></script>
+<script src="JS/predator_screen2.js" type="text/javascript"></script>
+
 
 
 <script src="js/setmeal.js" type="text/javascript"></script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+  <script>
 
-<script>
-	document.querySelector('#predator').onchange = changeEventHandler;
-	function changeEventHandler() {
-            // if nothing has been selected:
-            var value = event.target.value;
-
-            var pizza = 185;
-            var bull = 150;
-            var tiger = 180;
-            var tyrannotitan = 200;
-            var bieber = 500;
-            var values = {
-            	"bull": 150,
-            	"tyrannotitan": 200,
-            	"tiger": 180,
-            	"bieber": 500
-            }
-            console.log(values[value]);
-            if (values[value] > pizza) {
-                console.log('we beat the pizza');
-                console.log(value);
-                document.getElementById('image').src = "images/" + value + ".png";
-				document.getElementById('post').innerHTML = "You lost against" + ' ' + value;
-				document.getElementById('c').classList.remove("none");
-				setTimeout(function(){
-				document.getElementById('c').classList.add('none');
-				},5000);
-             }
-            else {
-                console.log(value);
-				document.getElementById('post').innerHTML = "You won against" + ' ' + value;
-                document.getElementById('image').src = "images/" + value + ".png";
-				if (!document.getElementById('c').classList.contains('none')){
-					document.getElementById('c').classList.add('none');
-				}
-				else {}
-            }
-            
-        }
 </script>
+
+
 
 <?php include 'includes/footer.php'; ?>
