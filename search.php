@@ -106,7 +106,7 @@
                 document.getElementById('post').innerHTML = "You lost against" + ' ' + value;
 				document.getElementById('c').classList.remove("none");
 				setTimeout(function(){
-				location.reload();
+				document.getElementById('c').classList.add('none');
 				},5000);
              }
             else {
@@ -114,6 +114,10 @@
 				console.log(nutritionTotal);
                 document.getElementById('post').innerHTML = "You won against" + ' ' + value;
                 document.getElementById('image').src = "images/" + value + ".png";
+				if (!document.getElementById('c').classList.contains('none')){
+					document.getElementById('c').classList.add('none');
+				}
+				else {}
             }
             
         }
