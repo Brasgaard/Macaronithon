@@ -111,104 +111,21 @@ body {
   animation-delay: 1.9s;
 }
 
-/* ----------------- Search Field Grid ---------------------*/
-.mainArea1--searchField {
-  display: grid;
-  grid-template-areas: 
-  "left center right";
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: space-around;
-  align-content: center;
-}
-
-.mainArea1--searchField-left {
-grid-area: left;
-grid-column-start: 1;
-height: 30vh;
-}
-
-.mainArea1--searchField-center {
-grid-area: center;
-display: flex;
-justify-content: center;
-align-items: center;
-grid-column-start: 2;
-height: 30vh;
-}
-.mainArea1--searchField-right {
-grid-area: right;
-grid-column-start: 3;
-height: 30vh;
-}
-
-/* ------------------ Background Grid ---------------------*/
-.mainArea1--background {
-  display: grid;
-  /*width: 100vw;*/
-  grid-template-areas: 
-  "left center right"
-  "bottom bottom bottom";
-  grid-template-columns: 1fr 1fr 1fr;
-  /*justify-content: space-around;
-  align-content: center;*/
-}
-
-.mainArea1--background-left {
-grid-area: left;
-
-grid-area: left;
-text-align: right;
-}
-#predatorrex {
-  width: 57%;
-}
-
-.mainArea1--background-center {
-grid-area: center;
-
-margin: 0;
-padding: 0;
-grid-area: center;
-}
-.mainArea1--background-right {
-grid-area: right;
-margin: 0;
-padding: 0;
-}
-#humanrun {
-  width: 40%;
- }
-
-.mainArea1--background-bottom {
-  grid-area: bottom;
-  /*grid-row-start: 2;*/
-  margin: 0;
-  height: 20vh;
-  /*width: 100vw;*/
-box-sizing: border-box;
-background:
-radial-gradient(circle at 0% 50%, rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px) 0px 10px,
-radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 16, 48, 0) 11px),
-#8a3;
-background-size: 20px 20px;
-}
-
 .inputMeal {
   height: 22px;
-  /*border-width: 4px;
-  border-color: #f6d24d;
-  border-style: outset;*/
 }
+
 .inputMeal:focus {
   outline: none;
 }
+
 .submitMeal {
   width: 60px;
   height: 30px;
   color: white;
   background: #ADD100;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #7B920A, #ADD100);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #7B920A, #ADD100); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-border-width: 4px;
-border-color: #f6d24d;
+  background: -webkit-linear-gradient(to right, #7B920A, #ADD100);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7B920A, #ADD100); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-width: 4px;
+  border-color: #f6d24d;
 }
