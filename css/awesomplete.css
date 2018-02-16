@@ -84,11 +84,11 @@ div.awesomplete > ul:empty {
 	}
 	
 		div.awesomplete mark {
-			background: hsl(65, 100%, 50%);
+			background: #f6d24d;
 		}
 		
 		div.awesomplete li:hover mark {
-			background: hsl(68, 100%, 41%);
+			background: #f6d24d;
 		}
 		
 		div.awesomplete li[aria-selected="true"] mark {
