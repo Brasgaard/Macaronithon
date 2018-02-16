@@ -58,12 +58,10 @@
 		</article>		
 	</section>
 	
-	<script
-  src="http://code.jquery.com/jquery-2.2.4.js"
-  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-  crossorigin="anonymous">	
+	
 	</script>
 	<script src="js/choose_predator.js" type="text/javascript"></script>
+	<script src="js/predator.js" type="text/javascript"></script>
 	<script src="JS/style.js" type="text/javascript"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
 	<script src="js/blood.js" type="text/javascript"></script>
