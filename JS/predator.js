@@ -10,10 +10,10 @@ document.querySelector('#predator').onchange = changeEventHandler;
             var tyrannotitan = 200;
             var bieber = 500;
             var values = {
-            	"bull": 150,
-            	"tyrannotitan": 200,
-            	"tiger": 180,
-            	"bieber": 500
+            	"Bull": 150,
+            	"Tyrannotitan": 200,
+            	"Tiger": 180,
+            	"Bieber": 500
             };
             console.log(values[value]);
             if (values[value] > pizza) {
