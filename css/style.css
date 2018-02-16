@@ -300,26 +300,28 @@ height: 22px;
 .search--centerbar {
   grid-area: center;
 }
-/*form {
+form {
   position: relative;
-}*/
+}
 
-      /*.searchBlock {
+      .input--tile {
        display: flex;
        justify-content: center;
        align-items: center;
-       
-      }*/
-     
+      }
+    .searchBlock__p {
+      /*display: inline-block;*/
+width: 100px;
+    }
 .searchBlock__input {
+  width: 100px;
   height: 22px;
   background: #f6d24d;
   border: black 1px solid;
   border-style: outset;
         position: absolute;
-        display: flex;
-       justify-content: center;
-       align-items: center;
+        display: inline-block;
+       text-align: center;
       }
       .searchBlock__input:focus {
   outline-color: #f6d24d;
