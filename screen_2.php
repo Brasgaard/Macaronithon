@@ -99,7 +99,7 @@
                 console.log('we beat the pizza');
                 console.log(value);
                 document.getElementById('image').src = "images/" + value + ".png";
-				document.getElementById('post').innerHTML = "you have lost against" + ' ' + value;
+				document.getElementById('post').innerHTML = "You lost against" + ' ' + value;
 				document.getElementById('c').classList.remove("none");
 				setTimeout(function(){
 				location.reload();
@@ -108,7 +108,7 @@
              }
             else {
                 console.log(value);
-				document.getElementById('post').innerHTML = "you have won against" + ' ' + value;
+				document.getElementById('post').innerHTML = "You won against" + ' ' + value;
                 document.getElementById('image').src = "images/" + value + ".png";
             }
             
