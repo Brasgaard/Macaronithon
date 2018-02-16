@@ -35,10 +35,10 @@
 			<form class="predators--topbar-form">
 				<select class="topbar-form-select" name="predator" id="predator">
 					<option class="inputPredator" value="">Select ...</option>
-					<option class="inputPredator" name="bull" value="bull" data-list="bull"><span>bull</span></option>
-					<option class="inputPredator" name="tyrannotitan" value="tyrannotitan" data-list="tyrannotitan"><span>tyrannotitan</span></option>
-					<option class="inputPredator" name="bieber" value="bieber" data-list="bieber"><span>bieber</span></option>
-					<option class="inputPredator" value="tiger" data-list="tiger"><span>tiger</span></option>
+					<option class="inputPredator" name="Bull" value="Bull" data-list="Bull"><span>Bull</span></option>
+					<option class="inputPredator" name="Tyrannotitan" value="Tyrannotitan" data-list="Tyrannotitan"><span>Tyrannotitan</span></option>
+					<option class="inputPredator" name="Justin Bieber" value="Justin_Bieber" data-list="Justin Bieber"><span>Justin Bieber</span></option>
+					<option class="inputPredator" value="Tiger" data-list="Tiger"><span>Tiger</span></option>
 				</select>
 
 			</form>
@@ -79,14 +79,14 @@
 			var nutritionTotal = fatValue + carbValue + proteinValue;
 			
             var values = {
-            	"bull": 150,
-            	"tyrannotitan": 200,
-            	"tiger": 180,
-            	"bieber": 500
+            	"Bull": 150,
+            	"Tyrannotitan": 200,
+            	"Tiger": 180,
+            	"Justin Bieber": 500
             }
             console.log(values[value]);
 			if (fatValue > 100 || carbValue > 100 || proteinValue > 100) {
-				alert("One of your values is too high. Please change it to something lower")
+				alert("One of your values is higher than 100. Please change it to something lower")
 				document.getElementById('post').innerHTML = "You're not trying to cheat now right? One of your values is a bit too high";
 			}
             else if (values[value] > nutritionTotal) {
@@ -94,7 +94,7 @@
                 console.log(value);
 				console.log(nutritionTotal);
                 document.getElementById('image').src = "images/" + value + ".png";
-                document.getElementById('post').innerHTML = "you have lost against" + ' ' + value;
+                document.getElementById('post').innerHTML = "You lost against" + ' ' + value;
 				document.getElementById('c').classList.remove("none");
 				setTimeout(function(){
 				location.reload();
@@ -103,7 +103,7 @@
             else {
                 console.log(value);
 				console.log(nutritionTotal);
-                document.getElementById('post').innerHTML = "you have won against" + ' ' + value;
+                document.getElementById('post').innerHTML = "You won against" + ' ' + value;
                 document.getElementById('image').src = "images/" + value + ".png";
             }
             

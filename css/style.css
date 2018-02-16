@@ -330,6 +330,11 @@ width: 100px;
   grid-area: sidebarright;
 }
  
+ #post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
 /* ...............................................
               FOOTER
 .................................................*/
