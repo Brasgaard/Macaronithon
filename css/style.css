@@ -568,7 +568,7 @@ border-color: #f6d24d;
               background: #f6d24d;
             }
             .pizza--aside-img {
-              width: 50%;
+              width: 65%;
             }
     .pizza--sidebarright {
       grid-area: sidebarright;
@@ -692,7 +692,7 @@ background: -webkit-linear-gradient(to right, #7B920A, #ADD100);  /* Chrome 10-2
 background: linear-gradient(to right, #7B920A, #ADD100); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .footer--copyright {
-  color: #f6d24d;
+  color: white;
 }
 
 #c {

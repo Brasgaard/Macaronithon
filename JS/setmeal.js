@@ -9,7 +9,7 @@ function onPgLoad() {
 	} else if (rtrMeal === "cheeseburger") {
 		document.getElementById("mealHead").innerHTML = "Cheeseburger";
 		document.getElementById("mealParagraph").innerHTML = "The greatest creation. All the major food groups combined together into one perfect dish. It contains: 35% fat, 40% carbs and 25% protein.";
-		mealImage.src = "images/cheeseburger.jpg";
+		mealImage.src = "images/cheeseburger.png";
 	} else if (rtrMeal === "caesar salad") {
 		document.getElementById("mealHead").innerHTML = "Caesar Salad";
 		document.getElementById("mealParagraph").innerHTML = "Wanna act like you're eating right but can't stand eating an actual salad. Well, look no further. It contains: 50% fat, 35% carbs and 15% protein.";
@@ -21,7 +21,7 @@ function onPgLoad() {
 	} else if (rtrMeal === "tomato soup") {
 		document.getElementById("mealHead").innerHTML = "Tomato Soup";
 		document.getElementById("mealParagraph").innerHTML = "Main ingredient: tomatoes. Other ingredients: You're probably better off not knowing. Seriously, don't think too much about it. It contains: 10% fat, 55% carbs and 35% protein.";
-		mealImage.src = "images/tomatosoup.jpg";
+		mealImage.src = "images/tomatosoup.png";
 	} else {
 		alert("Error. No meal data found");
 		console.log("No data found!");
