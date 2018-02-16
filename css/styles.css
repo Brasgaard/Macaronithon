@@ -12,7 +12,7 @@ body {
   width: 100%;
   font-family: Helvetica, sans-serif;
   overflow: hidden;
-  background-image: url(../images/cartoonbg.jpg);
+  background-image: url(../images/cartoonbgtest.jpg);
   -webkit-animation: animatedBackground 30s linear infinite;
 }
 
@@ -62,8 +62,8 @@ body {
 
 /* Images on index.html */
 .t-rex {
-  padding-top: 15%;
-  width: 45%;
+  padding-top: 10%;
+  width: 35%;
   position: relative;
   -webkit-animation-name: examplerex;
   -webkit-animation-duration: 5s;
@@ -80,8 +80,8 @@ body {
 }
 
 .human {
-  padding-top: 38%;
-  width: 25%;
+  padding-top: 33%;
+  width: 22%;
   position: relative;
   -webkit-animation-name: examplehuman;
   -webkit-animation-duration: 4s;
