@@ -7,18 +7,18 @@
 
 		<div class="search--centerbar">
 	<form>
-		<h3 class="searchBlock">Input your own data, then choose a predator to compete against</h3>
-		<h4 class="searchBlock">Values can range from 1-100</h4>
+		<h3 class="searchBlock--1">Input your own data, then choose a predator to compete against</h3>
+		<h4 class="searchBlock--2">Values can range from 1-100</h4>
 		<div class="input--tile">
-		<p class="searchBlock searchBlock__p">Fat</p>
+		
 		<input type="number" id="fat" class="searchBlock searchBlock__input" placeholder="Fats">
 		</div>
 		<div class="input--tile">
-		<p class="searchBlock searchBlock__p">Carbs</p>
+		
 		<input type="number" id="carbs" class="searchBlock searchBlock__input" placeholder="Carbs">
 		</div>
 		<div class="input--tile">
-		<p class="searchBlock searchBlock__p">Protein</p>
+		
 		<input type="number" id="protein" class="searchBlock searchBlock__input" placeholder="Proteins">
 		</div>
 	</form>

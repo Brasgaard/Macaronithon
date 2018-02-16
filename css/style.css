@@ -479,7 +479,7 @@ radial-gradient(at 100% 100%,      rgba(96, 16, 48, 0) 9px, #613 10px, rgba(96, 
 background-size: 20px 20px;
 }
 button, input, optgroup, select, textarea {
-  font-size: 50%;
+  font-size: 1rem;
 }
 .inputMeal {
   height: 22px;
@@ -640,8 +640,21 @@ height: 22px;
 .search--sidebarleft {
   grid-area: sidebarleft;
 }
+
+/*********************************************
+***************   CENTERBAR   ****************/
 .search--centerbar {
   grid-area: center;
+}
+.searchBlock--1 {
+   display: flex;
+   justify-content: center;
+  align-items: center;
+}
+
+.searchBlock--2 {
+  display: flex;
+   justify-content: center;
 }
 form {
   position: relative;
@@ -649,22 +662,16 @@ form {
 
       .input--tile {
        display: flex;
-       justify-content: center;
-       align-items: center;
-      }
-    .searchBlock__p {
-      /*display: inline-block;*/
-width: 100px;
-    }
+      justify-content: center;
+      padding: 10px 0 10px 0;
+}
+    
 .searchBlock__input {
   width: 100px;
-  height: 22px;
+  height: 25px;
   background: #f6d24d;
   border: black 1px solid;
   border-style: outset;
-        position: absolute;
-        display: inline-block;
-       text-align: center;
       }
       .searchBlock__input:focus {
   outline-color: #f6d24d;
@@ -672,7 +679,7 @@ width: 100px;
 .search--sidebarright {
   grid-area: sidebarright;
 }
- 
+ /***************************************************************/
  #post {
   display: flex;
   justify-content: center;
