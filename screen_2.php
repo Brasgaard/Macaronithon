@@ -1,6 +1,6 @@
 <?php require 'includes/head.php'; ?>
 <?php require 'includes/header.php'; ?>
-		
+
 <main class="mainArea2">
 
 	<section class="mainArea2--pizza">
@@ -28,10 +28,10 @@
 
 
 	<section class="mainArea2--predators">
-		
+
 		<article class="predators--topbar">
 			<h1 class="predators--topbar-heading">Choose Your Predator</h1>
-			
+
 			<form class="predators--topbar-form">
 				<select class="topbar-form-select" name="predator" id="predator">
 					<option class="inputPredator" value="">Select ...</option>
@@ -41,7 +41,7 @@
 					<option class="inputPredator" value="tiger" data-list="Tiger"><span>Tiger</span></option>
 				</select>
 
-			
+
 			</form>
 		</article>
 
@@ -56,7 +56,7 @@
 
 		<article class="predators--sidebarright">
 			<img id="humanrun" src="images/humanrun.png">
-		</article>		
+		</article>
 	</section>
 
 </main>
@@ -66,7 +66,7 @@
 
 <script src="js/style.js" type="text/javascript"></script>
 <script src="js/blood.js" type="text/javascript"></script>
-<script src="JS/predator_screen2.js" type="text/javascript"></script>
+<script src="js/predator_screen2.js" type="text/javascript"></script>
 
 
 

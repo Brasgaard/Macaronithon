@@ -10,28 +10,28 @@
 		<h3 class="searchBlock--1">Input your own data, then choose a predator to compete against</h3>
 		<h4 class="searchBlock--2">Values can range from 1-100</h4>
 		<div class="input--tile">
-		
+
 		<input type="number" id="fat" class="searchBlock searchBlock__input" placeholder="Fats">
 		</div>
 		<div class="input--tile">
-		
+
 		<input type="number" id="carbs" class="searchBlock searchBlock__input" placeholder="Carbs">
 		</div>
 		<div class="input--tile">
-		
+
 		<input type="number" id="protein" class="searchBlock searchBlock__input" placeholder="Proteins">
 		</div>
 	</form>
 		</div>
 		<div class="search--sidebarright"></div>
 	</article>
-		
+
 
 		<section class="mainArea2--predators">
-		
+
 		<article class="predators--topbar">
 			<h1 class="predators--topbar-heading">Choose Your Predator</h1>
-			
+
 			<form class="predators--topbar-form">
 				<select class="topbar-form-select" name="predator" id="predator">
 					<option class="inputPredator" value="">Select ...</option>
@@ -55,14 +55,14 @@
 
 		<article class="predators--sidebarright">
 			<img id="humanrun" src="images/humanrun.png">
-		</article>		
+		</article>
 	</section>
-	
-	
+
+
 	</script>
 	<script src="js/choose_predator.js" type="text/javascript"></script>
 	<script src="js/predator.js" type="text/javascript"></script>
-	<script src="JS/style.js" type="text/javascript"></script>
+	<script src="js/style.js" type="text/javascript"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
 	<script src="js/blood.js" type="text/javascript"></script>
 	<script>
@@ -75,7 +75,7 @@
 			var carbValue = parseInt(document.getElementById("carbs").value);
 			var proteinValue = parseInt(document.getElementById("protein").value);
 			var nutritionTotal = fatValue + carbValue + proteinValue;
-			
+
             var values = {
             	"Bull": 150,
             	"Tyrannotitan": 200,
@@ -117,7 +117,7 @@
 				}
 				else {}
             }
-            
+
         }
 	</script>
 </body>
