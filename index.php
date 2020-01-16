@@ -14,7 +14,7 @@
 	<div class="item1">
         <div class="animated zoomIn">
         	<img id="frontlogo" src="images/logotry.png" alt="Logo Macaronithon" title="Logo Macaronithon">
-			<p id="fronttext">How far can you run before you get eatenNNN</p>
+			<p id="fronttext">How far can you run before you get eatenNNNnnn</p>
 		</div>
 	</div>
 
